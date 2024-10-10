@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['conductive-tip', 'hole', 'rack', 'tip']
+
+roboflow:
+  workspace: 7eleven
+  project: tipssegmentation
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/7eleven/tipssegmentation/dataset/7
